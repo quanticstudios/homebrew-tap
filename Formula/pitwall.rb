@@ -2,28 +2,28 @@
 class Pitwall < Formula
   desc "Terminal multiplexer for coding agents"
   homepage "https://github.com/quanticstudios/pitwall"
-  version "0.1.10"
+  version "0.1.11"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.10/pitwall_darwin_arm64.tar.gz"
-      sha256 "a26aef397c427e40912e5477028df2d0ce057e226df147f0c47ac2cd0a7b68d3"
+      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.11/pitwall_darwin_arm64.tar.gz"
+      sha256 "468a1de0d356b58b1df201d0633939dc63b76afc61cb60aebc4e0c1a6070d3d1"
     end
     on_intel do
-      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.10/pitwall_darwin_amd64.tar.gz"
-      sha256 "530814718fe9e85f575d695424e8bcece392b883b218f44c26837ca35f5cce02"
+      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.11/pitwall_darwin_amd64.tar.gz"
+      sha256 "434c64f8967496fb1c07734f48402fce0a88834cac86e190917607cb938ccbac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.10/pitwall_linux_arm64.tar.gz"
-      sha256 "2704d5d20434db337e4d783bba5d3c5d35587426b1deb7598e3c0b91655c960e"
+      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.11/pitwall_linux_arm64.tar.gz"
+      sha256 "b81d3ab2562f61cf32a09c46d890ed08d0f9281690492f418bfb0a65c8a39ad5"
     end
     on_intel do
-      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.10/pitwall_linux_amd64.tar.gz"
-      sha256 "4f29adc83a626b48f09696c68d9f2c15a679f39a6920615616e0b4ce07beb7fb"
+      url "https://github.com/quanticstudios/pitwall/releases/download/v0.1.11/pitwall_linux_amd64.tar.gz"
+      sha256 "857818d333626ee0c799050eb07c4f72089c5e86cc3a8055df53e9244712021b"
     end
   end
 
